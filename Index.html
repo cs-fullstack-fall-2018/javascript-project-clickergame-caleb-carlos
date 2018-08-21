@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>C&C Coffee</title>
     <link rel="stylesheet" href="Design.css" type="text/css">
-
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
 
     <h1>Welcome to the Shop!</h1>
     <h3><button onclick="coffeeClick(1)">Make Coffee</button> Coffee: <span id="coffee">0</span> </h3>
@@ -12,16 +12,26 @@
 </head>
 
 <body>
- <button onclick="buyCoffee()">Buy Latte</button> Cost: <span id="beginningCost">15</span>
+ <button id="latte1" onclick="buyCoffee()"> "Buy Latte </button> Cost: <span id="beginningCost">15</span>
+
+
 
 <script>
+    document.getElementById('latte1').setAttribute("disabled", "disabled");
+
     var coffee = 0;
+
+
 
 function coffeeClick(number)
     {
         coffee = coffee + number;
-        document.getElementById("coffee").innerHTML = coffee
+        document.getElementById("coffee").innerHTML = coffee;
+
+
     }
+var thebutton = document.getElementById("latte1");
+
 
 </script>
 </body>

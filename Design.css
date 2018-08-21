@@ -1,6 +1,8 @@
 h1
 {
-    color: #c6c6c6;
+    color: #1cb315;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: ;
 }
 
 body
@@ -12,8 +14,17 @@ body
 #beginningCost
 {
     color: #b61012;
+    font-family: 'Baloo Bhai', cursive;
 }
 #coffee
 {
-    color: #fa070c;
+    color: #fa8f0e;
+    font-family: 'Baloo Bhai', cursive;
 }
+
+button
+{
+    background-color: #147dc6;
+    font-family: 'Baloo Bhai', cursive;
+}
+
