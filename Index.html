@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <title>C&C Coffee</title>
     <link rel="stylesheet" href="Design.css" type="text/css">
-</head>
-<body>
-<h1></h1>
-<h3><button onclick="coffeeClick(1)">Make Coffee</button> Coffee: <span id="coffee">0</span> </h3>
+    <h1>Welcome to the Shop!</h1>
+    <h3><button onclick="coffeeClick(1)">Make Coffee</button> Coffee: <span id="coffee">0</span> </h3>
+    <h3>Type of Coffee</h3>
+    <p>Flavors: <span id="latte">0</span> </p>
 
+    <link rel="stylesheet" type="text/css" href="Design.css">
+
+
+</head>
+
+<body>
+ <button onclick="buyCoffee()">Buy Latte</button> Cost: <span id="beginningCost">15</span>
+
+<script>
+    var coffee = 0;
+
+function coffeeClick(number)
+    {
+        coffee = coffee + number;
+        document.getElementById("coffee").innerHTML = coffee
+    }
+    var latte = 0;
+function buyCoffee()
+{
+    var beginningCost = Math.floor(15 * Math.pow())
+}
+
+</script>
 </body>
 </html>
